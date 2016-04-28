@@ -1,0 +1,26 @@
+//
+//  PE.pch
+//  Product-PEWindow
+//
+//  Created by qianfeng on 16/4/18.
+//  Copyright (c) 2016年 qianfeng. All rights reserved.
+//
+
+#ifndef Product_PEWindow_PE_pch
+#define Product_PEWindow_PE_pch
+
+#define YCOLOR_BROWNCOLOR [UIColor colorWithRed:(223/255.0) green:(118/255.0) blue:(69/255.0) alpha:1]
+#define YCOLOR_YELLOWCOLOR [UIColor colorWithRed:(209/255.0) green:(184/255.0) blue:(39/255.0) alpha:1]
+#define YCOLOR_BANANACOLOR [UIColor colorWithRed:(245/255.0) green:(224/255.0) blue:(133/255.0) alpha:1]
+#define YCOLOR_REDCOLOR [UIColor colorWithRed:(173/255.0) green:(0/255.0) blue:(24/255.0) alpha:1]
+#import "AFNetworking.h"
+#define YNEWS_RUL @"http://u1.tiyufeng.com/section/content_list?portalId=15&start=%d&id=351&limit=20&clientToken=7c98ddd1d8cb729bf66791a192b43748"
+#import "NSObject+YYModel.h"
+#import "YCHNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+#import "GTMBase64.h"
+#import "UIView+AdjustFrame.h"
+
+#endif
